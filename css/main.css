@@ -296,8 +296,113 @@ section h1:first-child,section h2:first-child,section h3:first-child,section h4:
     color: #fff;
 }
 
+.marketing-playbook-header-section {
+    background: #fada69;
+}
+
 .section-background-blue a {
     color: rgba(255,255,255,0.8);
+}
+
+.inspiration-item {
+    -webkit-animation: fadeIn .4s ease-out forwards;
+    animation: fadeIn .4s ease-out forwards;
+    min-height: 265px;
+    overflow: visible;
+    padding: 1em;
+}
+
+.inspiration-item-detail-avatar {
+    border-radius: 3px;
+    display: inline-block;
+    height: 30px;
+    margin: 0 .6em 0 0;
+    width: 30px;
+    vertical-align: bottom;
+}
+
+element.style {
+    background-image: url(https://trello-backgrounds.s3.amazonaws.com/53baf533e697a982248cd73f/960x960/4b4c1f7c6678833b87f3719d90a92d67/shutterstock_134707556.jpg);
+}
+
+.inspiration-item-board {
+    background-color: #838c91;
+    background-position: center;
+    background-size: cover;
+    border-radius: .3em;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    width: 330px;
+    height:178px;
+}
+
+.inspiration-item-board:hover .inspiration-item-board-fade {
+    background-color: rgba(0,0,0,0.4);
+}
+
+.inspiration-item-board-fade {
+    background-color: rgba(0,0,0,0.25);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+a {
+    color: #5e98ba;
+}
+
+a {
+    background: transparent;
+}
+
+.inspiration-item-board-list {
+    display: block;
+    height: 120px;
+    overflow: hidden;
+    padding: 0 .7em .7em;
+    position: relative;
+    width: 10000px;
+    z-index: 1;
+}
+
+.inspiration-item-board-list-item {
+    background: rgba(255,255,255,0.8);
+    border-radius: .3em;
+    display: inline-block;
+    margin-right: .3em;
+    height: 100%;
+    vertical-align: top;
+    width: 60px;
+}
+
+.inspiration-item-board-name {
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    margin-bottom: .3em;
+    padding: .5em .7em 0;
+    position: relative;
+    z-index: 1;
+}
+
+.button.mod-wide {
+    padding-right: 1.7em;
+    padding-left: 1.7em;
+}
+
+
+
+
+
+.background-light-purple {
+    background: #fada69;
 }
 
 .section-background-blue a:hover {
