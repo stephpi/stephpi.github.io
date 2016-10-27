@@ -297,7 +297,15 @@ section h1:first-child,section h2:first-child,section h3:first-child,section h4:
 }
 
 .marketing-playbook-header-section {
-    background: #fada69;
+    background: #0079BF;
+}
+
+.marketing-playbook-power-section {
+    background: #8FDFEB;
+}
+
+.marketing-playbook-header-section-copy {
+    color: #ffffff;
 }
 
 .section-background-blue a {
@@ -314,16 +322,19 @@ section h1:first-child,section h2:first-child,section h3:first-child,section h4:
 
 .inspiration-item-detail-avatar {
     border-radius: 3px;
+    fill-color: #e5e5e5;
     display: inline-block;
     height: 30px;
     margin: 0 .6em 0 0;
     width: 30px;
     vertical-align: bottom;
+    color: #000000;
 }
 
-element.style {
-    background-image: url(https://trello-backgrounds.s3.amazonaws.com/53baf533e697a982248cd73f/960x960/4b4c1f7c6678833b87f3719d90a92d67/shutterstock_134707556.jpg);
+.inspiration-item-detail-text {
+    color: #000000;
 }
+
 
 .inspiration-item-board {
     background-color: #838c91;
@@ -353,6 +364,19 @@ element.style {
     top: 0;
     z-index: 0;
 }
+
+.sample-boards-header {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sample-boards {
+    margin-top: 7px;
+}
+
 
 a {
     color: #5e98ba;
@@ -402,8 +426,66 @@ a {
 
 
 .background-light-purple {
-    background: #000000;
+    background: #DFC0EB;
 }
+
+.blog-icons {   
+    width: 250px;
+    margin-top: -35px;
+    margin-left: auto; 
+    margin-right: auto;
+
+     text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+.blog-icons a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 200px;
+  margin: 0 3em 7.5em 0;
+  position: relative;
+  width: 200px;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 200px;
+  left: 50px;
+  position: absolute;
+  top: 200px;
+  width: 150px;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
 
 .section-background-blue a:hover {
     color: #fff;
